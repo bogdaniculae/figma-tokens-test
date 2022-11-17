@@ -1,11 +1,22 @@
 {
+  "name": "design-token-test",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "build": "npx token-transformer tokens.json tokens/output.json && npx style-dictionary build"
+    "build-tt": "npx token-transformer tokens.json tokens/global.json global",
+    "build-sd": "node build.js",
+    "build-tw": "postcss input.css -o ./dist/css/output.css",
+    "build": "npm run build-tt && npm run build-sd && npm run build-tw"
   },
   "devDependencies": {
-    "style-dictionary": "^3.7.1"
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "postcss-import": "^15.0.0",
+    "style-dictionary": "^3.7.1",
+    "tailwindcss": "^3.2.4"
   },
   "dependencies": {
+    "postcss-cli": "^10.0.0",
     "token-transformer": "^0.0.27"
   }
 }
