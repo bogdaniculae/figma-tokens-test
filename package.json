@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "token-transformer tokens.json tokens/output.json && npx style-dictionary build"
+    "build": "npx token-transformer tokens.json tokens/output.json && npx style-dictionary build"
   },
   "devDependencies": {
     "style-dictionary": "^3.7.1"
