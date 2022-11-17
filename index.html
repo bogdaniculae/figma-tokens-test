@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 
 <head>
     <link rel="stylesheet" href="dist/css/output.css">
 </head>
 
-<body>
-    <div class="p-2 m-1 bg-Neutral-750">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellendus voluptate voluptas cum explicabo facere adipisci eos! Ullam, natus autem.</div>
+<body class="h-full">
+
+    <div class="h-full grid grid-cols-[auto_1fr]">
+        <aside class="bg-Neutral-200 w-64 h-full">
+            <ul class="grid gap-2 p-4">
+                <li class="py-3 px-2 bg-Neutral-300 rounded-sm hover:bg-Neutral-750 hover:text-Neutral-100 transition">Home</li>
+                <li class="py-3 px-2 bg-Neutral-300 rounded-sm hover:bg-Neutral-750 hover:text-Neutral-100 transition">Get started</li>
+                <li class="py-3 px-2 bg-Neutral-300 rounded-sm hover:bg-Neutral-750 hover:text-Neutral-100 transition">Tokens</li>
+                <li class="py-3 px-2 bg-Neutral-300 rounded-sm hover:bg-Neutral-750 hover:text-Neutral-100 transition">Components</li>
+            </ul>
+        </aside>
+        <main class="grid grid-flow-row auto-rows-max gap-2 p-4">
+            <h1 class="text-4xl font-bold">Test page</h1>
+            <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, velit.</p>
+        </main>
+    </div>
 </body>
 
 </html>

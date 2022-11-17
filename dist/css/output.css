@@ -488,14 +488,86 @@ video {
   --red-900: #d70505;
 }
 
-.m-1 {
-  margin: 0.25rem;
+.grid {
+  display: grid;
 }
 
-.bg-Neutral-750 {
+.h-full {
+  height: 100%;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.grid-flow-row {
+  grid-auto-flow: row;
+}
+
+.auto-rows-max {
+  grid-auto-rows: max-content;
+}
+
+.grid-cols-\[auto_1fr\] {
+  grid-template-columns: auto 1fr;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.bg-Neutral-200 {
+  background-color: var(--neutral-200, #f4f5f7);
+}
+
+.bg-Neutral-300 {
+  background-color: var(--neutral-300, #e9ebee);
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:bg-Neutral-750:hover {
   background-color: var(--neutral-750, #6b6d71);
 }
 
-.p-2 {
-  padding: 0.5rem;
+.hover\:text-Neutral-100:hover {
+  color: var(--neutral-100, #fafbfc);
 }
