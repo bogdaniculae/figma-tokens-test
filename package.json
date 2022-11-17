@@ -6,7 +6,6 @@
     "style-dictionary": "^3.7.1"
   },
   "dependencies": {
-    "husky": "^8.0.2",
     "token-transformer": "^0.0.27"
   }
 }
