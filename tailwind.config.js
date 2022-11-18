@@ -6,10 +6,13 @@ const colors = filterTokensByType('color', tokens)
 module.exports = {
   content: [
     "index.html",
-    "./src/**/*.{html,js}"
+    "./src/**/*.{html,js}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     colors,
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
