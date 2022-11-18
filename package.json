@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build-tt": "npx token-transformer tokens.json tokens/global.json global",
+    "build-tt": "npx token-transformer tokens.json tokens/shared.json shared",
     "build-sd": "node build.js",
     "build-tw": "postcss input.css -o ./dist/css/output.css",
     "build": "npm run build-tt && npm run build-sd && npm run build-tw"

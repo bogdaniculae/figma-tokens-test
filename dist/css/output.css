@@ -950,7 +950,7 @@ input:checked + .toggle-bg {
   }
 }
 
-.global-theme {
+.shared-theme {
   --neutral-100: #fafbfc;
   --neutral-200: #f4f5f7;
   --neutral-300: #e9ebee;
@@ -968,6 +968,7 @@ input:checked + .toggle-bg {
   --neutral-white: #ffffff;
   --red-900: #d70505;
   --green-500: #54de4f;
+  --black-300: #100d0d;
 }
 
 .visible {

@@ -1,5 +1,5 @@
 const { filterTokensByType } = require("./fns");
-const tokens = require("./dist/css/global.json")
+const tokens = require("./dist/css/shared.json")
 
 const colors = filterTokensByType('color', tokens)
 
