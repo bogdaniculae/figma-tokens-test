@@ -66,5 +66,11 @@
       "value": "#d70505",
       "type": "color"
     }
+  },
+  "Green": {
+    "500": {
+      "value": "#54de4f",
+      "type": "color"
+    }
   }
 }
